@@ -46,9 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bet.cs" />
-    <Compile Include="GreyHound.cs" />
-    <Compile Include="Guy.cs" />
+    <Compile Include="Domain\Bet.cs" />
+    <Compile Include="Domain\GreyHound.cs" />
+    <Compile Include="Domain\Guy.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>

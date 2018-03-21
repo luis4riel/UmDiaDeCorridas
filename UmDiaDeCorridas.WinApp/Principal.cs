@@ -160,6 +160,7 @@ namespace UmDiaDeCorridas.WinApp
                     bool isWinner = dognho.Run();
                     if (isWinner)
                         winner = dognho.StartingPosition;
+                    Thread.Sleep(15);
                 }
             }
             return winner;
